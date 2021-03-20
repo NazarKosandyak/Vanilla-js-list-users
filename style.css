@@ -1,0 +1,146 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+}
+/* left(form) */
+.left{
+    width: 50%;
+
+}
+h1{
+    font-size: 1rem;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+input{
+    line-height: 33px;
+    width: 100%;
+    border: 2px solid rgb(0, 179, 0);
+    border-radius: 3px;
+    box-sizing: border-box;
+    outline: none;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+input[type=button]{
+    background-color:rgb(0, 177, 59);
+    cursor: pointer;
+    width: 150px;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    transition: .2s;
+    outline: none;
+}
+input[type='button']:hover{
+    cursor: pointer;
+    width: 150px;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    transition: .2s;
+    transform: scale(1.03);
+}
+input[type='button']:active{
+    background: rgb(255, 38, 85);
+}
+
+/* right(tags) */
+.right{
+    width: 50%;
+}
+.tags{
+    width:90%;
+    box-sizing: border-box;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.tags > span{
+    font-size: 1rem;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+/* .user{
+    width:90%;
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 5px;
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-right: 20px;
+    
+    
+} */
+
+#us{
+    width:90%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+.user{
+    margin-top: 5px;
+    border-bottom: 1px solid grey; 
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stlEdit{
+    background: rgb(255, 238, 0);
+    color: #000;
+    border: none;
+    outline: none;
+    line-height: 25px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 70px;
+
+}
+.stlDelete{
+    line-height: 25px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background: rgb(255, 0, 64);
+    color: rgb(255, 255, 255);
+    width: 80px;
+    border: none;
+    outline: none;
+}
+/* EDIT BTN */
+.styleEdit{
+    background-color:rgb(0, 177, 59);
+    cursor: pointer;
+    width: 150px;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    transition: .2s;
+    outline: none;
+    line-height: 33px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
